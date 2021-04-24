@@ -1,0 +1,8 @@
+version: '3'
+services:
+  phone_db:
+    image: mariadb:10.5
+    ports:
+      - 13306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
